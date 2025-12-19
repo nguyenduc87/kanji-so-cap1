@@ -91,7 +91,58 @@ const flashcards = [
         question: "夕方",
         answer: "Chiều tối – ゆうがた",
         example: "夕方、散歩します。 (Chiều tối tôi đi dạo.)"
-    }
+    },
+    {
+        question: "季節",
+        answer: "Mùa – きせつ",
+        example: "日本には四つの季節があります。 (Nhật Bản có bốn mùa.)"
+    },
+    {
+        question: "春",
+        answer: "Mùa xuân – はる",
+        example: "春は花がきれいです。 (Mùa xuân hoa rất đẹp.)"
+    },
+    {
+        question: "秋",
+        answer: "Mùa thu – あき",
+        example: "秋は涼しいです。 (Mùa thu mát mẻ.)"
+    },
+    {
+        question: "冬",
+        answer: "Mùa đông – ふゆ",
+        example: "冬はとても寒いです。 (Mùa đông rất lạnh.)"
+    },
+    {
+        question: "夏",
+        answer: "Mùa hè – なつ",
+        example: "夏は暑いです。 (Mùa hè nóng.)"
+    },
+    {
+        question: "花",
+        answer: "Hoa – はな",
+        example: "公園に花がたくさんあります。 (Trong công viên có nhiều hoa.)"
+    },
+    {
+        question: "同じ",
+        answer: "Giống nhau – おなじ",
+        example: "私たちは同じクラスです。 (Chúng tôi học cùng lớp.)"
+    },
+    {
+        question: "寒い",
+        answer: "Lạnh – さむい",
+        example: "今日は寒いです。 (Hôm nay trời lạnh.)"
+    },
+    {
+        question: "暑い",
+        answer: "Nóng – あつい",
+        example: "日本の夏は暑いです。 (Mùa hè ở Nhật rất nóng.)"
+    },
+    {
+        question: "四季",
+        answer: "Bốn mùa – しき",
+        example: "日本の四季ははっきりしています。 (Bốn mùa ở Nhật rất rõ rệt.)"
+    },
+    
 ];
 
 
