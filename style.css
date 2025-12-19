@@ -1,0 +1,131 @@
+/* Tổng quát */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1), -10px -10px 30px rgba(255, 255, 255, 0.8);
+    width: 550px;
+    max-width: 90%;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Tiêu đề */
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Flashcard */
+.flashcard {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ddd;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.question,
+.answer,
+.example {
+    font-size: 50px;
+    color: #333;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.question.visible,
+.answer.visible,
+.example.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.answer,
+.example {
+    font-size: 30px;
+    font-style: italic;
+    color: #2f86c0;
+}
+
+.example {
+    color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.show-answer-button {
+    background-color: #4caf50;
+    color: white;
+}
+
+.show-answer-button:hover {
+    background-color: #45a049;
+}
+
+.next-button {
+    background-color: #007BFF;
+    color: white;
+}
+
+.next-button:hover {
+    background-color: #0056b3;
+}
