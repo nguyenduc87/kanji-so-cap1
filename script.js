@@ -142,7 +142,61 @@ const flashcards = [
         answer: "Bốn mùa – しき",
         example: "日本の四季ははっきりしています。 (Bốn mùa ở Nhật rất rõ rệt.)"
     },
-    
+    {
+        question: "天気",
+        answer: "Thời tiết – てんき",
+        example: "今日は天気がいいです。 (Hôm nay thời tiết đẹp.)"
+    },
+    {
+        question: "雨",
+        answer: "Mưa – あめ",
+        example: "雨が降っています。 (Trời đang mưa.)"
+    },
+    {
+        question: "晴れ",
+        answer: "Nắng / trời quang – はれ",
+        example: "明日は晴れです。 (Ngày mai trời nắng.)"
+    },
+    {
+        question: "風",
+        answer: "Gió – かぜ",
+        example: "今日は風が強いです。 (Hôm nay gió mạnh.)"
+    },
+    {
+        question: "雪",
+        answer: "Tuyết – ゆき",
+        example: "雪が降りました。 (Tuyết đã rơi.)"
+    },
+    {
+        question: "今",
+        answer: "Bây giờ – いま",
+        example: "今、雨が降っています。 (Bây giờ trời đang mưa.)"
+    },
+    {
+        question: "今日",
+        answer: "Hôm nay – きょう",
+        example: "今日は曇りです。 (Hôm nay trời nhiều mây.)"
+    },
+    {
+        question: "毎日",
+        answer: "Mỗi ngày – まいにち",
+        example: "毎日天気予報を見ます。 (Mỗi ngày tôi xem dự báo thời tiết.)"
+    },
+    {
+        question: "昨日",
+        answer: "Hôm qua – きのう",
+        example: "昨日は雨でした。 (Hôm qua trời mưa.)"
+    },
+    {
+        question: "強い",
+        answer: "Mạnh – つよい",
+        example: "強い風が吹いています。 (Gió mạnh đang thổi.)"
+    },
+    {
+        question: "曇り",
+        answer: "Nhiều mây – くもり",
+        example: "今日は曇りで寒いです。 (Hôm nay nhiều mây và lạnh.)"
+    }
 ];
 
 
