@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quizlet Từ Vựng Tiếng Nhật</title>
+    <title>Kanji Sơ Cấp 1</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
-        <h1 class="title">📖 Quizlet Từ Vựng Tiếng Nhật</h1>
+        <h1 class="title">📖 Kanji Sơ Cấp 1 IRODORI</h1>
+        <span id="progress">
+            1 / 80
+        </span>
+
         <div class="flashcard">
             <p id="question" class="question">Câu hỏi sẽ hiển thị ở đây</p>
             <p id="answer" class="answer hidden">Câu trả lời sẽ hiển thị ở đây</p>
             <p id="example" class="example hidden">Câu trả lời sẽ hiển thị ở đây</p>
         </div>
         <div class="buttons">
-            <button class="show-answer-button" onclick="showAnswer()">Hiển thị câu trả lời</button>
-            <button class="next-button" onclick="nextCard()">Thẻ tiếp theo</button>
+            <button class="show-answer-button" onclick="showAnswer()">Hiển thị trả lời</button>
+            <button class="prev-button" onclick="prevCard()">Từ trước đó</button>
+            <button class="next-button" onclick="nextCard()">Từ tiếp theo</button>
         </div>
     </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>

@@ -46,9 +46,18 @@ body {
     color: #555;
 }
 
+/* Số hiển thị từ đang xem*/
+#progress {
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #8fdede;
+    color: #645f5f;
+}
+
 /* Flashcard */
 .flashcard {
-    margin-bottom: 20px;
+    margin: 10px;
     padding: 20px;
     background: #fff;
     border-radius: 15px;
@@ -119,6 +128,20 @@ button {
 
 .show-answer-button:hover {
     background-color: #45a049;
+}
+
+.next-button,
+.prev-button {
+    background-color: #007BFF;
+    color: white;
+}
+
+.prev-button {
+    background-color: #a7404e;
+}
+
+.prev-button:hover {
+    background-color: #571f26;
 }
 
 .next-button {
